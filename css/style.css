@@ -177,7 +177,7 @@ left:0;
 }
 /* Home Style */
 #ssk-home{
-	padding-top: 50px;
+/*	padding-top: 50px; */
 }
 
 @media (min-width: 768px) {
@@ -338,7 +338,7 @@ left:0;
 	background-color: #E50020; 
 	position: relative;
 	color: #FFFFFF;
-	margin-top: 40px;
+	margin-top: 100px;
 	padding: 60px 0;
 	font-size: 24px;
 	font-weight: 800;
@@ -346,6 +346,7 @@ left:0;
 	}
 .balenologo{
 	display: none;
+
 	}
 }
 
@@ -357,7 +358,7 @@ left:0;
 	background-color: #E50020; 
 	position: relative;
 	color: #FFFFFF;
-	margin-top: 40px;
+	margin-top: 100px;
 	padding: 60px 20px;
 	font-size: 24px;
 	font-weight: 800;
@@ -365,7 +366,7 @@ left:0;
 .balenologo{
 	width: 240px;
 	z-index: 18;
-	padding-top: 60px;
+	padding-top: 120px;
 	margin-right:80px; 
 	padding-right: 20px;
 	}
