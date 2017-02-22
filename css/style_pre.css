@@ -283,7 +283,7 @@ left:0;
   	font-weight: 700;
   	font-size: 20px;
   	color: #FFF;
-  	padding: 0 10px;
+  	padding: 10px 0;
   }
 .dealerin > .table td:nth-child(odd){
     width: 19%;
