@@ -311,16 +311,9 @@ left:0;
 
 
 /* modal */
-#dealer {
-	height: 600px;
-	overflow: hidden;
-}
-.dealerin {
-	overflow: scroll;
-}
 @media (max-width: 767px){
 .modal-dialog {
-    height: 900px; 
+    max-height: 600px; 
     margin: 30px auto;
 	}
 }
