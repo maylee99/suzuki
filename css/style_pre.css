@@ -414,19 +414,20 @@ left:0;
 @media (min-width: 768px) {
 .goarea {
 	width: 270px;
-	height: 270px; 
-	border-radius: 50%;
-	background-color: #E50020; 
-	position: relative;
-	color: #FFFFFF;
-	margin-top: 100px;
-	padding: 60px 20px;
-	font-size: 24px;
-	font-weight: 800;
+    height: 270px;
+    border-radius: 50%;
+    background-color: #E50020;
+    position: relative;
+    color: #FFFFFF;
+    margin-top: 140px;
+    padding: 60px 20px;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 60px;
 	}
 .balenologo{
 	z-index: 18;
-	padding-top: 88px;
+	padding-top: 120px;
 	}
 }
 
