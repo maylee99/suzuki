@@ -305,8 +305,9 @@ left:0;
   	padding: 8px;
   	text-align: center;
 	background-color: rgba(255, 255, 255, 0.58);
-  	color: #1f2a31;
+    color: rgba(31, 42, 49, 0.83);
   	font-size: 16px;
+  	font-weight: 600;
   }
 
 
