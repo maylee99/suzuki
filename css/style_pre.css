@@ -181,6 +181,7 @@ left:0;
 @media (min-width: 767px) {
 #ssk-home  h1 {
 	width: 480px;
+	margin-bottom: 0;
 	}
 #ssk-home .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.32) 0%, rgba(0,0,0,0) 17%, rgba(0,0,0,0.22) 35%, rgba(9,9,10,0.56) 62%, rgba(0,0,0,0.8) 100%); /* FF3.6+ */
@@ -201,6 +202,7 @@ left:0;
 @media (max-width: 768px) {
 #ssk-home  h1 {
 	width: 320px;
+	margin-bottom: 0;
 	}
 #ssk-home .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
