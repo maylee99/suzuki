@@ -178,17 +178,17 @@ left:0;
 /*	padding-top: 50px; */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
 #ssk-home  h1 {
-	width: 490px;
+	width: 480px;
 	}
 #ssk-home .overlay{
-	background: -moz-linear-gradient(top,  rgba(0,0,0,0.32) 0%, rgba(0,0,0,0.23) 17%, rgba(0,0,0,0.35) 35%, rgba(9,9,10,0.56) 62%, rgba(0,0,0,0.8) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.32)), color-stop(17%,rgba(0,0,0,0.23)), color-stop(35%,rgba(0,0,0,0.35)), color-stop(62%,rgba(9,9,10,0.56)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.32) 0%,rgba(0,0,0,0.23) 17%,rgba(0,0,0,0.35) 35%,rgba(9,9,10,0.56) 62%,rgba(0,0,0,0.8) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(0,0,0,0.32) 0%,rgba(0,0,0,0.23) 17%,rgba(0,0,0,0.35) 35%,rgba(9,9,10,0.56) 62%,rgba(0,0,0,0.8) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(0,0,0,0.32) 0%,rgba(0,0,0,0.23) 17%,rgba(0,0,0,0.35) 35%,rgba(9,9,10,0.56) 62%,rgba(0,0,0,0.8) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(0,0,0,0.32) 0%,rgba(0,0,0,0.23) 17%,rgba(0,0,0,0.35) 35%,rgba(9,9,10,0.56) 62%,rgba(0,0,0,0.8) 100%); /* W3C */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.32) 0%, rgba(0,0,0,0) 17%, rgba(0,0,0,0.22) 35%, rgba(9,9,10,0.56) 62%, rgba(0,0,0,0.8) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.32)), color-stop(17%,rgba(0,0,0,0)), color-stop(35%,rgba(0,0,0,0.22)), color-stop(62%,rgba(9,9,10,0.56)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.32) 0%,rgba(0,0,0,0) 17%,rgba(0,0,0,0.22) 35%,rgba(9,9,10,0.56) 62%,rgba(0,0,0,0.8) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.32) 0%,rgba(0,0,0,0) 17%,rgba(0,0,0,0.22) 35%,rgba(9,9,10,0.56) 62%,rgba(0,0,0,0.8) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.32) 0%,rgba(0,0,0,0.0) 17%,rgba(0,0,0,0.22) 35%,rgba(9,9,10,0.56) 62%,rgba(0,0,0,0.8) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.32) 0%,rgba(0,0,0,0) 17%,rgba(0,0,0,0.22) 35%,rgba(9,9,10,0.56) 62%,rgba(0,0,0,0.8) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
 	height: auto;
 	background-attachment: fixed;
@@ -198,7 +198,7 @@ left:0;
 }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 #ssk-home  h1 {
 	width: 300px;
 	}
@@ -423,11 +423,8 @@ left:0;
 	font-weight: 800;
 	}
 .balenologo{
-	width: 240px;
 	z-index: 18;
-	padding-top: 100px;
-	margin-right:80px; 
-	padding-right: 20px;
+	padding-top: 88px;
 	}
 }
 
