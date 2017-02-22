@@ -200,7 +200,7 @@ left:0;
 
 @media (max-width: 767px) {
 #ssk-home  h1 {
-	width: 340px;
+	padding-bottom: 20px;
 	}
 #ssk-home .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
@@ -260,6 +260,55 @@ left:0;
 #video{
 /*	background-color: #000;*/
 }
+/* dealer */
+.dealer >.table td{
+  	width: 28%;
+    border-bottom: 1px solid #ccc;
+  }
+.dealer{
+  	width: 90%;
+  	margin: 0 auto;
+  	padding: 20px;
+  	background-color: #fff;
+  }
+.dealer.modal-dalog{
+	background-color: #000;
+}
+.dealer > .table {
+
+  }
+.dealer h1{
+  	font-weight: 700;
+  	font-size: 20px;
+  	color: #ec434a;
+  	padding: 0 10px;
+  }
+.dealer > .table td:nth-child(odd){
+    width: 19%;
+}
+.dealer > .table td:nth-child(2){
+    border-right: 1px dotted #ccc;
+}
+.dealer > .table td:nth-child(6){
+    border-right: 1px dotted #ccc;
+}
+.dealer > .table td:nth-child(10){
+    border-right: 1px dotted #ccc;
+}
+.dealer > .table td:nth-child(12){
+    border-right: 1px dotted #ccc;
+}
+.dealer > .table td:nth-child(14){
+    border-right: 1px dotted #ccc;
+}
+.dealer>.title{
+  	padding: 8px;
+  	text-align: center;
+  	background-color: #e2e2e2;
+  	color: #222;
+  	font-size: 16px;
+  }
+
 
 /* modal */
 @media (max-width: 767px){
