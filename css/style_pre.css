@@ -266,21 +266,21 @@ left:0;
     border-bottom: 1px solid #ccc;
   }
 .dealerin {
-  	width: 90%;
   	margin: 0 auto;
   	padding: 20px;
-  	background-color: #fff;
+	background-color: rgba(41, 53, 62, 0.95);
   }
 .dealerin.modal-dalog{
 	background-color: #000;
 }
 .dealerin > .table {
+	color: #ffffff;
 
   }
 .dealerin h1{
   	font-weight: 700;
   	font-size: 20px;
-  	color: #ec434a;
+  	color: #FFF;
   	padding: 0 10px;
   }
 .dealerin > .table td:nth-child(odd){
@@ -304,8 +304,8 @@ left:0;
 .dealerin >.title{
   	padding: 8px;
   	text-align: center;
-  	background-color: #f2f2f2;
-  	color: #222;
+	background-color: rgba(255, 255, 255, 0.58);
+  	color: #1f2a31;
   	font-size: 16px;
   }
 
