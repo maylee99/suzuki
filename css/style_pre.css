@@ -385,6 +385,7 @@ left:0;
 	width: 200px;
 	text-align: left;
 	font-weight: bold;
+	padding-left: 20px;
 }
 .play.modalButton:hover,.play.modalButton:focus{
 	color: #32ce9b;
