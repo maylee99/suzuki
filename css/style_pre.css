@@ -401,14 +401,16 @@ left:0;
 	background-color: #E50020; 
 	position: relative;
 	color: #FFFFFF;
-	margin-top: 100px;
+	margin-top: 130px;
 	padding: 60px 0;
 	font-size: 24px;
 	font-weight: 800;
-	margin-left:12%;
+	margin-left:32px;
 	}
-.balenologo{
-	display: none;
+.balenologo img{
+	height: 36px;
+    margin-top: 77px;
+    margin-right: 54px;
 
 	}
 }
