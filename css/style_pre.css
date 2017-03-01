@@ -181,12 +181,8 @@ left:0;
 @media (min-width: 767px) {
 #ssk-home  h1 {
 	width: 480px;
-	margin: 25px 0 0;
-    position: absolute;
-    left: 15px;
-    bottom: 100px;
-}
-
+	margin-bottom: 0;
+	}
 #ssk-home .overlay{
 	background: none;
 }
@@ -204,41 +200,17 @@ left:0;
 	min-height: 100vh;
 	position: relative;
     z-index: 21;
-	}
-
-.play.modalButton {
-    font-size: 26px;
-    color: #FFFFFF;
-    display: block;;
-    position: absolute;
-    left: 15px;
-    bottom: 30px;
-
-	}
+}
 }
 
 @media (max-width: 768px) {
 #ssk-home  h1 {
 	width: 320px;
-    position: absolute;
-    top: 15px;
-    top: 400px;
-}
-
+	margin-bottom: 0;
+	}
 #ssk-home .overlay{
 background: none;
 }
-
-.play.modalButton {
-    font-size: 26px;
-    color: #FFFFFF;
-    margin-bottom: 30px;
-    display: block;;
-    position: absolute;
-    left: 0;
-    top: 500px;
-}
-
 #ssk-home_bk .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
@@ -253,12 +225,7 @@ background: none;
 	position: relative;
     z-index: 21;
 	}
-
 }
-
-#ssk-home h1 > img{
-    width: 100%;
-	}
 
 #ssk-home{
 	position: relative;
@@ -267,6 +234,11 @@ background: none;
 	min-height: 100vh;
 	position: relative;
     z-index: 21;
+}
+
+#ssk-home h1 > img{
+	margin: 25px 0 0;
+	width: 100%;
 }
 
 #ssk-home .mainimg{
@@ -310,7 +282,7 @@ background: none;
 .dealerin {
   	margin: 0 auto;
   	padding: 20px;
-	background-color: rgba(31, 51, 68, 0.96);
+	background-color: rgba(41, 53, 62, 0.95);
   }
 .dealerin.modal-dalog{
 	background-color: #000;
@@ -403,11 +375,22 @@ background: none;
 }
 
 .play.modalButton span {
+ /* display: block;
+  margin: 15px auto;
+  padding: 5px 15px;*/
   	margin: 8px 12px;
 	font-size: 32px;
 	padding-bottom: 20px;
 }
-
+.play.modalButton {
+	/*line-height: 2em;*/
+	font-size: 26px;
+	color: #FFFFFF;
+	margin-bottom:30px; 
+	display: block;
+	position: relative;
+	margin-left: -25px;
+}
 
 .play.modalButton {
 	color: #ffffff;
@@ -425,66 +408,58 @@ background: none;
 /* area go */
 
 @media (max-width: 767px) {
-.goarea {
-	width: 270px;
-	height: 270px; 
-	border-radius: 50%;
-	background-color: #E50020; 
-	position: relative;
-	color: #FFFFFF;
-	margin-top: 130px;
-	padding: 60px 0;
-	font-size: 24px;
-	font-weight: 800;
-	margin-left:32px;
-	}
+.goarea img {
+    width: 200px;
+    position: relative;
+    margin-top: 130px;
+    padding: 60px 0;
+    margin-left: 0;
+    margin-top: 80px;
+}
 .balenologo img{
-	height: 36px;
-    margin-top: 77px;
-    margin-right: 54px;
+	height: 70px;
+	}
 
+.balenologo {
+	padding-top: 70px;
 	}
 }
 
 @media (min-width: 768px) {
-.goarea {
+.goarea img {
 	width: 270px;
-    height: 270px;
-    border-radius: 50%;
-    background-color: #E50020;
     position: relative;
-    color: #FFFFFF;
-    /* margin-top: 140px; */
+    margin-top: 140px;
     padding: 60px 20px;
-    font-size: 24px;
-    font-weight: 800;
-    position: absolute;
-    left: 120px;
-    top: 140px;
+    margin-left: 60px;
 	}
+
 .balenologo{
-    z-index: 18;
-    /* padding-top: 90px; */
-    position: absolute;
-    top: 90px;
-    right: 15px;
+	z-index: 18;
+	padding-top: 70px;
 	}
 }
 
-/* .goarea {
+/* For width 400px and larger: */
+@media only screen and (max-width: 400px) {
+.goarea img {
+	width: 165px;
+    position: relative;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 80px;
+	}
 
-	width: 270px;
-	height: 270px; 
-	border-radius: 50%;
-	background-color: #E50020; 
-	position: relative;
-	color: #FFFFFF;
-	margin-top: 40px;
-	padding: 60px 20px;
-	font-size: 24px;
-	font-weight: 800;
-} */
+.balenologo{
+	z-index: 18;
+	padding-top: 70px;
+	}
 
+.balenologo img {
+    height: 64px;
+	}
+}
 
 /* btn go*/
 .go.modalButton span {
