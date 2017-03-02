@@ -749,13 +749,15 @@ ul.style-list li span{
 	background: url(../images/interior.png);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     min-height: 500px;
     @media (max-width: @iphone-screen) {
     background-attachment: scroll;
 	} 
+	@media(min-width: 767px){
+	 background-attachment: fixed;
+	}
 
 }
 
