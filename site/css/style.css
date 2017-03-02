@@ -721,7 +721,7 @@ ul.style-list li span{
 	min-height: 520px;
 	width: 100vw;}
 
-	@media (max-width: @iphone-screen) {
+	@media (max-width: 400px) {
 	#ssk-style .mainimg{
     background-attachment: scroll;
 	} 
