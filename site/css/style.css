@@ -752,7 +752,7 @@ ul.style-list li span{
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     min-height: 500px;
-
+    background-attachment: local;
 }
 
 .mainimgin img{
