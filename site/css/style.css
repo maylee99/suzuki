@@ -717,6 +717,7 @@ ul.style-list li span{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-color: #FFFFFF;
 	min-height: 520px;
 	display: table;
