@@ -710,6 +710,8 @@ ul.style-list li span{
 
 #ssk-style{
 	padding-top: 40px;
+	opacity: 0;
+    transition: all .4s ease-in-out;
 }
 
 #ssk-style .mainimg{
