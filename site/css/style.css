@@ -710,10 +710,13 @@ ul.style-list li span{
 
 #ssk-style{
 	padding-top: 40px;
-	opacity: 0;
-    transition: all .4s ease-in-out;
-}
 
+}
+#ssk-style .mainimg > * {
+		height: 200%;
+		position: relative;
+		top: -100%;
+	}
 #ssk-style .mainimg{
 	background: url(../images/style.png);
 	background-size: cover;
@@ -722,10 +725,8 @@ ul.style-list li span{
 	background-attachment: fixed;
 	background-color: #FFFFFF;
 	min-height: 520px;
-	display: table;
-	height: 100%;
-	width: 100%;
-	position: relative;
+		height: 100vh;
+		overflow: hidden;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
