@@ -720,7 +720,7 @@ ul.style-list li span{
 	background-repeat: no-repeat;
 	background-color: #FFFFFF;
 	min-height: 520px;
-	   @media (max-width: @iphone-screen) {
+	  @media (max-width: @iphone-screen) {
     background-attachment: scroll;
 	} 
 }
