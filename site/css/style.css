@@ -759,6 +759,11 @@ ul.style-list li span{
     background-attachment: fixed;
 	}
 }
+    @media (max-width: 410px){
+    #ssk-interior .mainimg{
+    background-attachment: scroll;
+	}
+}
 
 .mainimgin img{
 	background: url(../images/interior_textin.png);
