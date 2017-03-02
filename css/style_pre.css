@@ -231,9 +231,8 @@ background: none;
 	position: relative;
 	height: auto;
 	background-attachment: fixed;
-	min-height: 100vh;
-	position: relative;
-    z-index: 21;
+	min-height: 700px;
+
 }
 
 #ssk-home h1 > img{
@@ -248,9 +247,10 @@ background: none;
 	background-attachment: fixed; */
 	background-repeat: no-repeat;
 	background-color: #FFFFFF;
-	min-height: 100vh;
-    position: relative;
-    z-index: 21;
+	min-height: 50vh;
+   @media (max-width: @iphone-screen) {
+    background-attachment: scroll;
+	} 
 }
 
 #ssk-home_bk .overlay{
