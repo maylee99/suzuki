@@ -752,12 +752,9 @@ ul.style-list li span{
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     min-height: 500px;
-    @media (max-width: @iphone-screen) {
-    background-attachment: scroll;
-	} 
-	@media(min-width: 767px){
-	 background-attachment: fixed;
-	}
+    position: fixed;
+    top:0;
+    left:0;
 
 }
 
