@@ -720,6 +720,9 @@ ul.style-list li span{
 	background-repeat: no-repeat;
 	background-color: #FFFFFF;
 	min-height: 520px;
+	   @media (max-width: @iphone-screen) {
+    background-attachment: scroll;
+	} 
 }
 
 #ssk-style .overlay{
@@ -750,7 +753,10 @@ ul.style-list li span{
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     min-height: 500px;
-    position:relative; 
+    @media (max-width: @iphone-screen) {
+    background-attachment: scroll;
+	} 
+
 }
 
 .mainimgin img{
@@ -766,7 +772,9 @@ ul.style-list li span{
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     min-height: 500px;
-    position:relative; 
+   @media (max-width: @iphone-screen) {
+    background-attachment: scroll;
+	} 
 }
 
 .mainimgin_2 img{
@@ -901,6 +909,10 @@ text-shadow: 0 0 0px #000, 0 0 0px #000, 0 0 4px #000, 0 0 8px #000000, 0 0 10px
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #ffffff;
+	   @media (max-width: @iphone-screen) {
+    background-attachment: scroll;
+	} 
+
 }
 
 #ssk-performance .overlay{
@@ -957,6 +969,10 @@ img.performance-img {
 	background-repeat: no-repeat;
 	color: #ffffff;
 	min-height: 600px;
+	   @media (max-width: @iphone-screen) {
+    background-attachment: scroll;
+	} 
+
 
 }
 
@@ -1010,6 +1026,10 @@ img.performance-img {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #ffffff;
+	   @media (max-width: @iphone-screen) {
+    background-attachment: scroll;
+	} 
+
 }
 
 #ssk-safety .overlay{
