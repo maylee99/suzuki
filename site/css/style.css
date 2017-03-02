@@ -752,7 +752,10 @@ ul.style-list li span{
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     min-height: 500px;
+
+}
     @media (min-width: 767px){
+    #ssk-interior .mainimg{
     background-attachment: fixed;
 	}
 }
