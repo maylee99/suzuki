@@ -719,18 +719,15 @@ ul.style-list li span{
 	background-repeat: no-repeat;
 	background-color: #FFFFFF;
 	min-height: 520px;
-	width: 100vw;}
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
 
-	@media (max-width: 400px) {
-	#ssk-style .mainimg{
-    background-attachment: scroll;
-	} 
-}
-	@media (min-width: 768px) {
-     #ssk-style .mainimg{
-	background-attachment: fixed;
-	}
-}
 
 
 #ssk-style .overlay{
