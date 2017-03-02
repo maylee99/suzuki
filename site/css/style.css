@@ -716,15 +716,22 @@ ul.style-list li span{
 	background: url(../images/style.png);
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: #FFFFFF;
 	min-height: 520px;
-	width: 100vw;
-	  @media (max-width: @iphone-screen) {
+	width: 100vw;}
+
+	@media (max-width: @iphone-screen) {
+	#ssk-style .mainimg{
     background-attachment: scroll;
 	} 
 }
+	@media (min-width: 768px) {
+     #ssk-style .mainimg{
+	background-attachment: fixed;
+	}
+}
+
 
 #ssk-style .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
