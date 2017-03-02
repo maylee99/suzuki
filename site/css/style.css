@@ -749,15 +749,19 @@ ul.style-list li span{
 	background: url(../images/interior.png);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     min-height: 500px;
+<<<<<<< HEAD
+    position: fixed;
+    top:0;
+    left:0;
+=======
     @media (max-width: @iphone-screen) {
     background-attachment: scroll;
 	} 
-	@media(min-width: 767px){
-	 background-attachment: fixed;
-	}
+>>>>>>> parent of 98b9201... test interior
 
 }
 
