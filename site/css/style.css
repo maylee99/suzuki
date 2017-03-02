@@ -385,7 +385,7 @@ background-color: none;
 }
 
 @media(max-width: 400px){
-	#ssk-home h1 {
+#ssk-home h1 {
     position: absolute;
     left: 15px;
     bottom: 96px;
@@ -395,10 +395,10 @@ background-color: none;
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 10px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25);
 	}
 
-	.concept {
+.concept {
 	}
 
-	#ssk-home {
+#ssk-home {
     background: url(../images/home_an.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -409,18 +409,18 @@ background-color: none;
     -index: 21;
     margin-top: 0;
 	}
-	img.textin1,img.textin2{
+img.textin1,img.textin2{
 		width: 90%;
 	}
-	#ssk-colors .mainimg .colors {
+#ssk-colors .mainimg .colors {
     width: 95%;
 	}
-	.balenologo {
+.balenologo {
 	top: 190px;
     position: absolute;
     left: 15px;
 	}
-	.balenologo img{
+.balenologo img{
 	height: 66px;
 
 	}
@@ -433,7 +433,7 @@ background-color: none;
 	border-radius: 50%;
 	font-size: 20px;
 	font-weight: bold;
-	background: #E50020;
+	background: #162e52;
 	width: 260px;
 	height: 260px;
 	padding: 60px 0;
@@ -457,7 +457,7 @@ background-color: none;
 	border-radius: 50%;
 	font-size: 16px;
 	font-weight: bold;
-	background: #E50020;
+	background: #162e52;
 	width: 200px;
 	height: 200px;
 	padding: 40px 0;
@@ -484,7 +484,7 @@ background-color: none;
     border-radius: none;
     font-size: 20px;
     font-weight: bold;
-    background: #E50020;
+    background: #162e52;
     width: 100%;
     padding: 20px 0;
     position: relative;
@@ -496,17 +496,17 @@ background-color: none;
 .goarea .gobutton {
     text-align: center;
     line-height: 2em;
-    color: #E50020;
-    border: 2px solid #E50020;
+    color: #23274c;
+    border: 2px solid #162e52;
     background-color: #FFFFFF;
 }
 .goarea .gobutton{
-	color: #E50020;
+	color:#162e52;
 	margin-top:6px; 
 }
 
 .goarea .gobutton:hover,.goarea .gobutton:focus{
-	background-color: #E50020;
+	background-color: #162e52;
 	color: #FFFFFF;
 	border: 2px solid #FFFFFF;
 }
