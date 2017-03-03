@@ -334,7 +334,7 @@ background-color: none;
 	font-size: 24px;
 	display: block;
     position: absolute;
-    bottom: 34px;
+    bottom: 24px;
     left: 0;
 
 }
@@ -388,7 +388,7 @@ background-color: none;
 #ssk-home h1 {
     position: absolute;
     left: 15px;
-    bottom: 96px;
+    bottom: 86px;
     font-size: 30px;
     color: #FFF;
     font-style: italic;
@@ -612,6 +612,14 @@ a.goarea img {
     bottom: 10px;
 }
 
+#ssk-home h1 span{
+	display: block;
+	font-size: 32px;
+	padding: 15px 0 10px 15px;
+	text-transform:lowercase;
+	font-style: italic;
+}
+
 #ssk-home h1 {
 	color: #FFF;
 	font-style: italic;
@@ -716,11 +724,11 @@ ul.style-list li span{
 	background: url(../images/style.png);
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
+    background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-color: #FFFFFF;
 	min-height: 520px;
-}
+	}
 
 #ssk-style .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
@@ -746,12 +754,12 @@ ul.style-list li span{
 	background: url(../images/interior.png);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     min-height: 500px;
     position:relative; 
-}
+	}
 
 .mainimgin img{
 	background: url(../images/interior_textin.png);
@@ -762,7 +770,7 @@ ul.style-list li span{
 	background: url(../images/interior2.png);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     min-height: 500px;
@@ -885,6 +893,10 @@ img.img-circle.interior-img {
 	padding-top: 40px;
 }
 
+#ssk-performance > .thumbnail{
+	min-height: 446px;
+}
+
 #ssk-performance h3,#ssk-performance .caption p{
 	color: #FFFFFF;
 text-shadow: 0 0 0px #000, 0 0 0px #000, 0 0 4px #000, 0 0 8px #000000, 0 0 10px #000000;
@@ -898,9 +910,10 @@ text-shadow: 0 0 0px #000, 0 0 0px #000, 0 0 4px #000, 0 0 8px #000000, 0 0 10px
 	background: url(../images/performance.png);
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	color: #ffffff;
+	height: 566px;
 }
 
 #ssk-performance .overlay{
@@ -936,6 +949,7 @@ img.performance-img {
 	background: transparent;
 	border: 0;
 	margin-top: 40px;
+	min-height: 466px;
 }
 
 #ssk-performance .thumbnail .caption {
@@ -953,12 +967,11 @@ img.performance-img {
 	background: url(../images/space.png);
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	color: #ffffff;
 	min-height: 600px;
-
-}
+	}
 
 #ssk-space .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
@@ -1007,10 +1020,11 @@ img.performance-img {
 	background: url(../images/safety.png);
 	background-size: cover;
 	background-position: center 30px;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	color: #ffffff;
-}
+	min-height: 520px;
+	}
 
 #ssk-safety .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
