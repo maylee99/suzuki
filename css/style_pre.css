@@ -231,9 +231,8 @@ background: none;
 	position: relative;
 	height: auto;
 	background-attachment: fixed;
-	min-height: 100vh;
-	position: relative;
-    z-index: 21;
+	min-height: 700px;
+
 }
 
 #ssk-home h1 > img{
