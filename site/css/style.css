@@ -718,17 +718,37 @@ ul.style-list li span{
 
 #ssk-style{
 	padding-top: 40px;
-}
 
+}
+#ssk-style > * {
+		height: 200%;
+		position: relative;
+		top: -100%;
+	}
 #ssk-style .mainimg{
 	background: url(../images/style.png);
 	background-size: cover;
 	background-position: center;
+<<<<<<< HEAD
     background-attachment: scroll;
+=======
+>>>>>>> c64d3fe5808b8fc75ff72f73ba3533cdbc4eb441
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-color: #FFFFFF;
 	min-height: 520px;
+<<<<<<< HEAD
 	}
+=======
+		height: 100vh;
+		overflow: hidden;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+>>>>>>> c64d3fe5808b8fc75ff72f73ba3533cdbc4eb441
+
+
 
 #ssk-style .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
@@ -742,7 +762,7 @@ ul.style-list li span{
 	background-attachment: fixed;
 /*	padding: 80px 0;*/
 	padding-bottom: 80px;
-	min-height: 500px;
+	 min-height: 500px;
 }
 
 /* interior Section */
@@ -754,12 +774,30 @@ ul.style-list li span{
 	background: url(../images/interior.png);
     background-size: cover;
     background-position: center;
+<<<<<<< HEAD
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     min-height: 500px;
     position:relative; 
 	}
+=======
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    min-height: 500px;
+
+}
+    @media (min-width: 767px){
+    #ssk-interior .mainimg{
+    background-attachment: fixed;
+	}
+}
+    @media (max-width: 410px){
+    #ssk-interior .mainimg{
+    background-attachment: scroll;
+	}
+}
+>>>>>>> c64d3fe5808b8fc75ff72f73ba3533cdbc4eb441
 
 .mainimgin img{
 	background: url(../images/interior_textin.png);
@@ -774,7 +812,9 @@ ul.style-list li span{
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     min-height: 500px;
-    position:relative; 
+   @media (max-width: @iphone-screen) {
+    background-attachment: scroll;
+	} 
 }
 
 .mainimgin_2 img{
@@ -913,7 +953,14 @@ text-shadow: 0 0 0px #000, 0 0 0px #000, 0 0 4px #000, 0 0 8px #000000, 0 0 10px
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	color: #ffffff;
+<<<<<<< HEAD
 	height: 566px;
+=======
+	   @media (max-width: @iphone-screen) {
+    background-attachment: scroll;
+	} 
+
+>>>>>>> c64d3fe5808b8fc75ff72f73ba3533cdbc4eb441
 }
 
 #ssk-performance .overlay{
@@ -971,7 +1018,16 @@ img.performance-img {
 	background-repeat: no-repeat;
 	color: #ffffff;
 	min-height: 600px;
+<<<<<<< HEAD
 	}
+=======
+	   @media (max-width: @iphone-screen) {
+    background-attachment: scroll;
+	} 
+
+
+}
+>>>>>>> c64d3fe5808b8fc75ff72f73ba3533cdbc4eb441
 
 #ssk-space .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
@@ -1023,8 +1079,16 @@ img.performance-img {
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	color: #ffffff;
+<<<<<<< HEAD
 	min-height: 520px;
 	}
+=======
+	   @media (max-width: @iphone-screen) {
+    background-attachment: scroll;
+	} 
+
+}
+>>>>>>> c64d3fe5808b8fc75ff72f73ba3533cdbc4eb441
 
 #ssk-safety .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
