@@ -715,12 +715,12 @@ ul.style-list li span{
 	padding-top: 40px;
 }
 
-#ssk-interior .imgwrap{
+#imgwrap{
 	position:fixed;
 
 }
 
-#ssk-interior .imgwrap > .mainimg{
+#imgwrap > .mainimg{
 	background: url(../images/interior.png);
     background-size: cover;
     background-position: center;
