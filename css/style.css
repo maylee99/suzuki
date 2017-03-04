@@ -715,12 +715,12 @@ ul.style-list li span{
 	padding-top: 40px;
 }
 
-#imgwrap{
+div.imgwrap{
 	position:fixed;
 
 }
 
-#imgwrap > .mainimg{
+div.imgwrap > div.mainimg{
 	background: url(../images/interior.png);
     background-size: cover;
     background-position: center;
