@@ -715,7 +715,23 @@ ul.style-list li span{
 	padding-top: 40px;
 }
 
-#ssk-interior .mainimg{
+#ssk-interior .wrapper{
+	position:fixed;
+
+}
+
+#ssk-interior .wrapper>.mainimg{
+	background: url(../images/interior.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    min-height: 500px;
+    position:relative; 
+}
+
+/*#ssk-interior .mainimg{
 	background: url(../images/interior.png);
     background-size: cover;
     background-position: center;
@@ -724,7 +740,7 @@ ul.style-list li span{
     background-color: #FFFFFF;
     min-height: 500px;
     position:relative; 
-	}
+	}*/
 
 .mainimgin img{
 	background: url(../images/interior_textin.png);
