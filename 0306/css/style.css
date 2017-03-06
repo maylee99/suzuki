@@ -225,7 +225,7 @@ ol {
     /*  background-attachment: fixed;*/
     background-position: center center;
     box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-    min-height: 700px;
+    min-height: 100vh;
     z-index: 21;
 }
 
