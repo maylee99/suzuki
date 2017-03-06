@@ -1055,7 +1055,7 @@ img.space-img {
 }
 
 @media (min-width: 415px) {
-#ssk-safety .mainimg > .imgin {
+#ssk-space .mainimg > .imgin {
     background: url(../images/space_1.png);
     background-size: contain;
     background-position: center;
@@ -1072,8 +1072,8 @@ img.space-img {
 }
 
 @media (max-width: 414px) {
-    #ssk-safety .mainimg > .imgin {
-    background: url(../images/space_m.png);
+    #ssk-space.mainimg > .imgin {
+    background: url(../images/space_1.png);
     background-size: contain;
     background-position: center;
     background-attachment: scroll;
