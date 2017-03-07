@@ -838,7 +838,7 @@ a.fa.fa-angle-down:hover {
     position: relative;
     }
 }
-@media (max-width: 767px) {
+@media (min-width: 767px) {
 #ssk-interior .mainimg_2 {
     background: url(../images/interior2.png);
     background-size: cover;
@@ -1351,12 +1351,12 @@ img.space-img {
 #ssk-colors {
     padding-top: 40px;
 }
-
+@media (min-width: 767px) {
 #ssk-colors .mainimg {
     background: url(../images/colors.png);
     background-size: cover;
     background-position: center!important;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     background-repeat: no-repeat;
     color: #ffffff;
     /*min-height: 695px;*/
@@ -1364,8 +1364,23 @@ img.space-img {
     position: relative;
     width: 100vw;
     background-position: 0px -170px;   /*0306*/
+    }
 }
-
+@media (max-width: 767px) {
+#ssk-colors .mainimg {
+    background: url(../images/colors.png);
+    background-size: cover;
+    background-position: center!important;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    /*min-height: 695px;*/
+    min-height: 100vh;  /*0306*/
+    position: relative;
+    width: 100vw;
+    background-position: 0px -170px;   /*0306*/
+    }
+}
 #ssk-colors .section-title.center {
     padding-bottom: 20px;
 }
