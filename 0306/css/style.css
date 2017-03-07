@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
-/*  0306   v.01  */
+/*  0307   v.01  */
 body,
 html {
     font-family: 'Lato', sans-serif;
@@ -423,10 +423,10 @@ ol {
 }
 
 
-@media (min-width: 400px) and (max-width: 767px) {
+@media (min-width: 414px) and (max-width: 767px) {
     .goarea {
         color: #FFF;
-        border-radius: 0;
+        border-radius: 50%;
         font-size: 16px;
         font-weight: bold;
         background: #162e52;
@@ -1231,7 +1231,7 @@ img.space-img {
 #ssk-colors .mainimg {
     background: url(../images/colors.png);
     background-size: cover;
-    background-position: centerhome;
+    background-position: center!important;
     /*  background-attachment: fixed; */
     background-repeat: no-repeat;
     color: #ffffff;

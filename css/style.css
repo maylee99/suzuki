@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
-/*  0304---02  */
+/*  0307   v.01  */
 body,
 html {
     font-family: 'Lato', sans-serif;
@@ -218,20 +218,20 @@ ol {
 #ssk-home {
     padding-top: 140px;
     position: relative;
-    background: url(../images/home_an.jpg);
+    background: url(../images/home_an.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     /*  background-attachment: fixed;*/
     background-position: center center;
     box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-    min-height: 700px;
+    min-height: 100vh;
     z-index: 21;
 }
 
-#ssk-home h1 span {
+#ssk-home h1 img {
     display: block;
-    padding: 15px 0 10px 15px;
+    padding: 15px 0 8px 5px;
     text-transform: lowercase;
     font-style: italic;
 }
@@ -250,13 +250,15 @@ ol {
     /*  background-color: #000;*/
 }
 @media (min-width: 768px) {
-        #ssk-home h1 span {
-        font-size: 32px;
+        #ssk-home h1 img {
+     /*   font-size: 32px;*/
+        width: 200px;
         }
 }
 @media (max-width: 767px) {
-        #ssk-home h1 span {
-        font-size: 28px;
+        #ssk-home h1 img {
+        width: 200px;
+  /*      font-size: 28px;*/
         }
         #ssk-home h1 {
         text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 10px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25);
@@ -267,8 +269,9 @@ ol {
 }
 
 @media(max-width: 400px) {
-    #ssk-home h1 span {
-    font-size: 22px;
+    #ssk-home h1 img {
+        width: 120px;
+   /* font-size: 22px;*/
     }
     #ssk-home h1 {
         position: absolute;
@@ -280,7 +283,7 @@ ol {
         text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 10px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25), 0px 0px 8px rgba(0, 0, 0, 0.25);
     }
     #ssk-home {
-        background: url(../images/home_an.jpg);
+        background: url(../images/home_an.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-color: #04070c;
@@ -420,10 +423,10 @@ ol {
 }
 
 
-@media (min-width: 400px) and (max-width: 767px) {
+@media (min-width: 414px) and (max-width: 767px) {
     .goarea {
         color: #FFF;
-        border-radius: 0;
+        border-radius: 50%;
         font-size: 16px;
         font-weight: bold;
         background: #162e52;
@@ -570,7 +573,7 @@ ol {
         left: 45px;
     }
     #ssk-colors .mainimg .colors {
-        width: 65%;
+        width: 60%;
     }
 }
 
@@ -694,6 +697,19 @@ a.fa.fa-angle-down:hover {
 .thumbnail {
     display: block;
     padding: 46px 0;
+    margin-bottom: 10px;
+    line-height: 1.42857143;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+/* for space */
+.thumbnailsp {
+    display: block;
+    padding: 260px 0 20px 30px;
     margin-bottom: 10px;
     line-height: 1.42857143;
     background-color: transparent;
@@ -921,7 +937,7 @@ img.img-circle.interior-img {
     min-height: 446px;
 }
 
-#ssk-performance h3,
+#ssk-performance h3,#ssk-space h3,
 #ssk-performance .caption p {
     color: #FFFFFF;
     text-shadow: 0 0 0px #000, 0 0 0px #000, 0 0 4px #000, 0 0 8px #000000, 0 0 10px #000000;
@@ -938,7 +954,7 @@ img.img-circle.interior-img {
     background-attachment: scroll;
     background-repeat: no-repeat;
     color: #ffffff;
-    height: 566px;
+    height: 590px;
 }
 
 #ssk-performance .overlay {
@@ -1013,6 +1029,65 @@ img.performance-img {
     min-height: 600px;
 }
 
+#ssk-space .caption p {
+    font-weight: 700;
+}
+#ssk-space .caption p {
+    color: #FFFFFF;
+    text-shadow: 0 0 0px #000, 0 0 0px #000, 0 0 4px #000, 0 0 8px #000000, 0 0 10px #000000;
+}
+
+@media (min-width:415px){
+img.space-img {
+    width: 300px;
+    border: 4px solid rgba(252, 251, 228, 0.67);
+    transition: all 0.5s;
+    }
+}
+
+
+@media (max-width:415px){
+img.space-img {
+    width: 90%;
+    border: 4px solid rgba(252, 251, 228, 0.67);
+    transition: all 0.5s;
+    }
+}
+
+@media (min-width: 415px) {
+#ssk-space .mainimg > .imgin {
+    background: url(../images/space_1.png);
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: auto;
+    position: relative;
+    margin: 0 20px;
+    min-width: 700px;
+    height: auto;
+    padding: 260px 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    #ssk-space.mainimg > .imgin {
+    background: url(../images/space_1.png);
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: auto;
+    position: relative;
+    margin: 0 20px;
+    min-width: 70%;
+    height: auto;
+    padding: 260px 10px;
+    }
+}
+
 #ssk-space .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
     /* FF3.6+ */
@@ -1068,11 +1143,46 @@ img.performance-img {
 #ssk-safety .mainimg {
     background: url(../images/safety.png);
     background-size: cover;
-    background-position: center 30px;
+    background-position: center top;
     background-attachment: scroll;
     background-repeat: no-repeat;
     color: #ffffff;
     min-height: 520px;
+    position: relative;
+}
+
+@media (min-width: 415px) {
+#ssk-safety .mainimg > .imgin {
+    background: url(../images/safety_1.png);
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    padding: 260px 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    #ssk-safety .mainimg > .imgin {
+    background: url(../images/safety_m.png);
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: auto;
+    position: relative;
+    margin: 0 20px;
+    min-width: 70%;
+    height: auto;
+    padding: 260px 10px;
+    }
 }
 
 #ssk-safety .overlay {
@@ -1121,7 +1231,7 @@ img.performance-img {
 #ssk-colors .mainimg {
     background: url(../images/colors.png);
     background-size: cover;
-    background-position: center 20px;
+    background-position: center!important;
     /*  background-attachment: fixed; */
     background-repeat: no-repeat;
     color: #ffffff;
