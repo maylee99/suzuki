@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
-/*  0307   v.01  */
+/*  0307   v.02 Modify img effect  */
 body,
 html {
     font-family: 'Lato', sans-serif;
@@ -246,6 +246,13 @@ ol {
     width: 200px;
 }
 
+/*0306*/
+.thumbnail2 > img {
+    width: 100%;
+    margin: 6% 0;
+}
+/*0306*/
+
 #video {
     /*  background-color: #000;*/
 }
@@ -423,10 +430,10 @@ ol {
 }
 
 
-@media (min-width: 414px) and (max-width: 767px) {
+@media (min-width: 400px) and (max-width: 767px) {
     .goarea {
         color: #FFF;
-        border-radius: 50%;
+        border-radius: 0;
         font-size: 16px;
         font-weight: bold;
         background: #162e52;
@@ -733,16 +740,31 @@ a.fa.fa-angle-down:hover {
     padding-top: 40px;
 }
 
+@media (max-width: 767px) {
 #ssk-style .mainimg {
     background: url(../images/style.png);
     background-size: cover;
     background-position: center;
+    /*background-attachment: scroll;*/
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-color: #FFFFFF;
-    min-height: 520px;
+    min-height: 100vh;
+    }
 }
 
+@media (min-width: 767px) {
+#ssk-style .mainimg {
+    background: url(../images/style.png);
+    background-size: cover;
+    background-position: center;
+    /*background-attachment: scroll;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    }
+}
 #ssk-style .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
     /* FF3.6+ */
@@ -772,15 +794,31 @@ a.fa.fa-angle-down:hover {
     padding-top: 40px;
 }
 
+@media (max-width: 767px) {
 #ssk-interior .mainimg {
     background: url(../images/interior.png);
     background-size: cover;
     background-position: center;
+    /*background-attachment: scroll;*/
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     min-height: 500px;
     position: relative;
+    }
+}
+@media (min-width: 767px) {
+    #ssk-interior .mainimg {
+    background: url(../images/interior.png);
+    background-size: cover;
+    background-position: center;
+    /*background-attachment: scroll;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    min-height: 500px;
+    position: relative;
+    }
 }
 
 .mainimgin img {
@@ -791,7 +829,8 @@ a.fa.fa-angle-down:hover {
     background: url(../images/interior2.png);
     background-size: cover;
     background-position: center top;
-    background-attachment: scroll;
+    /*background-attachment: scroll;*/
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #FFFFFF;
     min-height: 500px;
@@ -947,15 +986,32 @@ img.img-circle.interior-img {
     font-weight: 700;
 }
 
+@media (max-width: 767px) {
 #ssk-performance .mainimg {
     background: url(../images/performance.png);
     background-size: cover;
     background-position: center;
+    /*background-attachment: scroll;*/
     background-attachment: scroll;
     background-repeat: no-repeat;
     color: #ffffff;
     height: 590px;
+    }
 }
+
+@media (min-width: 767px) {
+#ssk-performance .mainimg {
+    background: url(../images/performance.png);
+    background-size: cover;
+    background-position: center;
+    /*background-attachment: scroll;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: 590px;
+    }
+}
+
 
 #ssk-performance .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
@@ -1019,14 +1075,42 @@ img.performance-img {
     position: relative;
 }
 
+@media (max-width: 767px) {
 #ssk-space .mainimg {
     background: url(../images/space.png);
     background-size: cover;
     background-position: center;
+    /*background-attachment: scroll;*/
     background-attachment: scroll;
     background-repeat: no-repeat;
     color: #ffffff;
     min-height: 600px;
+    }
+}
+
+@media (min-width: 767px) {
+#ssk-space .mainimg {
+    background: url(../images/space.png);
+    background-size: cover;
+    background-position: center;
+    /*background-attachment: scroll;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    min-height: 600px;
+    }
+}
+@media (min-width: 767px) {
+#ssk-space .mainimg {
+    background: url(../images/space.png);
+    background-size: cover;
+    background-position: center;
+    /*background-attachment: scroll;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    min-height: 600px;
+    }
 }
 
 #ssk-space .caption p {
@@ -1140,15 +1224,31 @@ img.space-img {
     padding-top: 40px;
 }
 
+@media (max-width: 767px) {
 #ssk-safety .mainimg {
     background: url(../images/safety.png);
     background-size: cover;
     background-position: center top;
+    /*background-attachment: scroll;*/
     background-attachment: scroll;
     background-repeat: no-repeat;
     color: #ffffff;
     min-height: 520px;
     position: relative;
+    }
+}
+@media (min-width: 767px) {
+#ssk-safety .mainimg {
+    background: url(../images/safety.png);
+    background-size: cover;
+    background-position: center top;
+    /*background-attachment: scroll;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    min-height: 520px;
+    position: relative;
+    }
 }
 
 @media (min-width: 415px) {
@@ -1166,6 +1266,15 @@ img.space-img {
     height: auto;
     padding: 260px 10px;
     }
+#ssk-safety .mainimg > .imgin2 {  /*0306*/
+    float: left;
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    padding: 200px 0 0 0;
+    text-align: left;
+    margin: 30px 0;
+}
 }
 
 @media (max-width: 414px) {
@@ -1232,12 +1341,14 @@ img.space-img {
     background: url(../images/colors.png);
     background-size: cover;
     background-position: center!important;
-    /*  background-attachment: fixed; */
+    background-attachment: fixed; 
     background-repeat: no-repeat;
     color: #ffffff;
-    min-height: 695px;
+    /*min-height: 695px;*/
+    min-height: 100vh;  /*0306*/
     position: relative;
     width: 100vw;
+    background-position: 0px -170px;   /*0306*/
 }
 
 #ssk-colors .section-title.center {
@@ -1392,7 +1503,7 @@ i.fa.fa-chevron-left {
     background: url(../images/carGray.jpg);
     background-size: 100%;
     background-position: center;
-    background-attachment: scroll;
+    background-attachmethumbnail2nt: scroll;
     background-repeat: no-repeat;
     color: #ffffff;
 }
