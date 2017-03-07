@@ -825,6 +825,20 @@ a.fa.fa-angle-down:hover {
     background: url(../images/interior_textin.png);
 }
 
+@media (max-width: 767px) {
+#ssk-interior .mainimg_2 {
+    background: url(../images/interior2.png);
+    background-size: cover;
+    background-position: center top;
+    /*background-attachment: scroll;*/
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    min-height: 500px;
+    position: relative;
+    }
+}
+@media (max-width: 767px) {
 #ssk-interior .mainimg_2 {
     background: url(../images/interior2.png);
     background-size: cover;
@@ -835,6 +849,7 @@ a.fa.fa-angle-down:hover {
     background-color: #FFFFFF;
     min-height: 500px;
     position: relative;
+    }
 }
 
 .mainimgin_2 img {
