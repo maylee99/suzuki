@@ -1,5 +1,0 @@
-AuthName "Please enter your id and pass!"
-AuthType Basic
-AuthUserFile "/authdata/suzuki-demo.sharetime.us
-require valid-user
-
